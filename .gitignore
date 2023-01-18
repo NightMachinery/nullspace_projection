@@ -323,3 +323,4 @@ data/persian-w2v-skipgram/
 
 tmp.sh
 notebooks.zip
+.ipynb_checkpoints/
