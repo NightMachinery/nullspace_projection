@@ -1,9 +1,11 @@
 allennlp
 transformers
-pickle
+# pickle
 tqdm
 numpy
 docopt
 
 scikit-learn
 torch
+
+gensim==3.8.3
