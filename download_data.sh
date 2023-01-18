@@ -1,4 +1,4 @@
-mkdir data
+mkdir -p data
 
 # We took the biasbios data from: https://github.com/IBM/sensitive-subspace-robustness
 # and performed the splits into train/dev/test to 65/10/25 percent accordingly with a random split per profession.
