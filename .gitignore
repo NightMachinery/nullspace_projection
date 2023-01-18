@@ -317,4 +317,7 @@ data/embeddings/vecs.filtered.txt
 data/embeddings/vecs.gendered.txt
 data/embeddings/vecs.150k.cleaned.txt
 
+data/persian/
+data/persian-w2v-skipgram/
+
 tmp.sh

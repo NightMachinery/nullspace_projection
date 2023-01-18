@@ -75,7 +75,7 @@ def save_in_word2vec_format(vecs: np.ndarray, words: np.ndarray, fname: str):
     """
     with open(fname, "w") as f:
 
-        f.write(str(len(vecs)) + " " + "300" + "\n")
+        f.write(str(len(vecs)) + " " + str(vecs.shape[-1]) + "\n")
         for i, (v,w) in tqdm.tqdm(enumerate(zip(vecs, words))):
 
             vec_as_str = " ".join([str(x) for x in v])
@@ -162,9 +162,12 @@ def main():
     parser.add_argument('--keep-names', dest='keep_names',
                         action = 'store_true',
                         help='if true, keeps private names')                           
+    parser.add_argument('--binary', dest='binary',
+                        action = 'store_true',
+                        help='if true, parses input as binary')
     args = parser.parse_args()
                                                  
-    model, vecs, words = load_model(args.input_path, binary = False)
+    model, vecs, words = load_model(args.input_path, binary = args.binary)
     (vecs, words), (words_gendered, vecs_gendered) = filter_vecs(vecs, words, args.keep_gendered, args.keep_names)
     save_in_word2vec_format(vecs[:args.top_k], words[:args.top_k], args.output_dir + "vecs.filtered.txt")
     save_in_word2vec_format(vecs_gendered, words_gendered, args.output_dir + "vecs.gendered.txt")

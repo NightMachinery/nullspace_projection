@@ -30,3 +30,33 @@ jupyter lab
 #+end_example
 
 And then open the notebook =word_vectors_debiasing.ipynb=.
+
+** @persian
+#+begin_example zsh
+cd data
+github-dir 'https://github.com/Text-Mining/Persian-Wikipedia-Corpus/tree/master/models/word2vec-skipgram' 'persian-w2v-skipgram'
+cd ..
+#+end_example
+
+#+begin_example zsh
+python src/data/filter_vecs.py \
+--input-path data/persian-w2v-skipgram/p.bin \
+--binary \
+--output-dir data/persian-w2v-skipgram/ \
+--top-k 50000  \
+--keep-inherently-gendered  \
+--keep-names
+#+end_example
+
+And then open the notebook =word_vectors_debiasing_persian.ipynb=.
+
+** @tmp
+This one didn't work.
+#+begin_example zsh
+python src/data/filter_vecs.py \
+--input-path data/persian/vectors.txt \
+--output-dir data/persian/ \
+--top-k 50000  \
+--keep-inherently-gendered  \
+--keep-names 
+#+end_example
