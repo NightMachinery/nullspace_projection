@@ -1,5 +1,7 @@
 #+TITLE: Homework 3, Group 13
 
+The last version of this readme can be accessed [[https://github.com/NightMachinery/nullspace_projection/blob/master/notebooks/readme.org][here]].
+
 These notebooks have been forked and adapted from the paper [[https://www.semanticscholar.org/paper/e969aa3422a49152c22f3faf734e4561a2a3cf42][Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection]]. In particular, support for gender debiasing in Persian and racial debiasing in English has been added.
 
 The relevant notebooks are:
@@ -19,3 +21,9 @@ Other relevant papers:
 - [[https://api.semanticscholar.org/arXiv:1903.03862][Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them]]
   
 - [[https://www.semanticscholar.org/paper/Bias-in-Bios%3A-A-Case-Study-of-Semantic-Bias-in-a-De-Arteaga-Romanov/c4afa2b3eda95a1194313394901e0e96e24cefaa][Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting]]
+
+
+I have written a summary of some of these papers:
+- [[https://files.lilf.ir/static/notes/private/subjects/ML/ethics/papers/Null%20It%20Out/gen.html][Null It Out]]
+
+- [[https://files.lilf.ir/static/notes/private/subjects/ML/ethics/papers/Bias%20in%20Bios/gen.html][Bias in Bios]]
