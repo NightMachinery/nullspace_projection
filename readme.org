@@ -33,6 +33,12 @@ And then open the notebook =word_vectors_debiasing.ipynb=.
 
 ** @persian
 #+begin_example zsh
+github-dir () {
+    : "@? downloads the given URL of a Github directory to the given destination."
+    svn export "$(sed 's/tree\/master/trunk/' <<< "$1")" "$2"
+}
+
+
 cd data
 github-dir 'https://github.com/Text-Mining/Persian-Wikipedia-Corpus/tree/master/models/word2vec-skipgram' 'persian-w2v-skipgram'
 cd ..
