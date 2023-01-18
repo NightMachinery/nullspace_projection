@@ -9,3 +9,7 @@ scikit-learn
 torch
 
 gensim==3.8.3
+
+jupyter
+jupyterlab
+matplotlib

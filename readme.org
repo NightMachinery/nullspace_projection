@@ -22,4 +22,11 @@ python src/data/filter_vecs.py \
 --keep-names 
 #+end_example
 
+I had to download some data from [[https://github.com/gonenhila/gender_bias_lipstick/tree/master/data/lists]], but I committed those so you don't need to download them again.
 
+You can run the notebook from the root:
+#+begin_example zsh
+jupyter lab
+#+end_example
+
+And then open the notebook =word_vectors_debiasing.ipynb=.

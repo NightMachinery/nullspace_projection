@@ -315,5 +315,6 @@ data/embeddings/glove.42B.300d.zip
 
 data/embeddings/vecs.filtered.txt
 data/embeddings/vecs.gendered.txt
+data/embeddings/vecs.150k.cleaned.txt
 
 tmp.sh
