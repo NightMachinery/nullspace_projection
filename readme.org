@@ -1,0 +1,25 @@
+#+TITLE: nullspace_projection
+
+* @install
+#+begin_example zsh
+conda create -n null_space python=3.8 
+cina null_space
+
+pip install -U -r requirements.txt
+#+end_example
+
+* Word Embedding experiments (Section 6.1 in the paper)
+#+begin_example zsh
+python src/data/to_word2vec_format.py data/embeddings/glove.42B.300d.txt
+#+end_example
+
+#+begin_example zsh
+python src/data/filter_vecs.py \
+--input-path data/embeddings/glove.42B.300d.txt \
+--output-dir data/embeddings/ \
+--top-k 150000  \
+--keep-inherently-gendered  \
+--keep-names 
+#+end_example
+
+
