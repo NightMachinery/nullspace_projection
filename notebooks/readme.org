@@ -11,7 +11,7 @@ The relevant notebooks are:
 
 These notebooks evaluate the biases found in embeddings using various metrics and mitigate them and report the results. The embeddings can be from any model, including deep transformers like BERT. The technique works as long as it is applied to the inputs of a linear model, such as the last layer of BERT or logistic regression.
 
-The English gender notebook contains more evaluations. Specifically, it evaluates the true positive rate gap metric for careers. As the data for this evaluation was not available for Persian or racial bias, it was omited for them.
+The English gender notebook contains more evaluations. Specifically, it evaluates the true positive rate gap metric for careers. As the data for this evaluation was not available for Persian or racial bias, it was omitted for them.
 
 Other relevant papers:
 - [[https://www.semanticscholar.org/paper/Man-is-to-Computer-Programmer-as-Woman-is-to-Word-Bolukbasi-Chang/ccf6a69a7f33bcf052aa7def176d3b9de495beb7][Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings]]
