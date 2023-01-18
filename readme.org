@@ -3,7 +3,7 @@
 * @install
 #+begin_example zsh
 conda create -n null_space python=3.8 
-cina null_space
+conda activate null_space
 
 pip install -U -r requirements.txt
 #+end_example

@@ -1,8 +1,17 @@
 #+TITLE: Homework 3, Group 13
 
+Group 13:
+- Feraidoon Mehri
+- Soroosh Vafaietabar
+- Fahime Hoseini
+
 The last version of this readme can be accessed [[https://github.com/NightMachinery/nullspace_projection/blob/master/notebooks/readme.org][here]].
 
-These notebooks have been forked and adapted from the paper [[https://www.semanticscholar.org/paper/e969aa3422a49152c22f3faf734e4561a2a3cf42][Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection]]. In particular, support for gender debiasing in Persian and racial debiasing in English has been added.
+Our group had chosen the bias and ethics track.
+
+I have written a [[https://github.com/NightMachinery/nullspace_projection/blob/master/readme.org][guide]] on reproducing these results. The Persian data was downloaded from [[https://github.com/Text-Mining/Persian-Wikipedia-Corpus/tree/master/models/word2vec-skipgram][here]].
+
+These notebooks have been forked and adapted from the paper [[https://www.semanticscholar.org/paper/e969aa3422a49152c22f3faf734e4561a2a3cf42][Null It Out: Guarding Protected Attributes by Iterative Nullspace Projection]]. In particular, *support for gender debiasing in Persian and racial debiasing in English has been added*.
 
 The relevant notebooks are:
 - https://github.com/NightMachinery/nullspace_projection/blob/master/notebooks/word_vectors_debiasing.ipynb
@@ -23,7 +32,7 @@ Other relevant papers:
 - [[https://www.semanticscholar.org/paper/Bias-in-Bios%3A-A-Case-Study-of-Semantic-Bias-in-a-De-Arteaga-Romanov/c4afa2b3eda95a1194313394901e0e96e24cefaa][Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting]]
 
 
-I have written a summary of some of these papers:
+I have written a summary for some of these papers:
 - [[https://files.lilf.ir/static/notes/private/subjects/ML/ethics/papers/Null%20It%20Out/gen.html][Null It Out]]
 
 - [[https://files.lilf.ir/static/notes/private/subjects/ML/ethics/papers/Bias%20in%20Bios/gen.html][Bias in Bios]]
