@@ -306,3 +306,10 @@ sent_race/
 data/emoji_sent_race_origin/
 data/emoji_sent_race_mlp/
 data/emoji_sent_race/
+
+data/biasbios/
+data/deepmoji/
+data/embeddings/crawl-300d-2M.vec
+data/embeddings/crawl-300d-2M.vec.zip
+data/embeddings/glove.42B.300d.zip
+tmp.sh
