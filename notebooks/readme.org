@@ -17,3 +17,5 @@ Other relevant papers:
 - [[https://www.semanticscholar.org/paper/Man-is-to-Computer-Programmer-as-Woman-is-to-Word-Bolukbasi-Chang/ccf6a69a7f33bcf052aa7def176d3b9de495beb7][Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings]]
 
 - [[https://api.semanticscholar.org/arXiv:1903.03862][Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them]]
+  
+- [[https://www.semanticscholar.org/paper/Bias-in-Bios%3A-A-Case-Study-of-Semantic-Bias-in-a-De-Arteaga-Romanov/c4afa2b3eda95a1194313394901e0e96e24cefaa][Bias in Bios: A Case Study of Semantic Representation Bias in a High-Stakes Setting]]
