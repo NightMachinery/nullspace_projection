@@ -312,4 +312,8 @@ data/deepmoji/
 data/embeddings/crawl-300d-2M.vec
 data/embeddings/crawl-300d-2M.vec.zip
 data/embeddings/glove.42B.300d.zip
+
+data/embeddings/vecs.filtered.txt
+data/embeddings/vecs.gendered.txt
+
 tmp.sh
